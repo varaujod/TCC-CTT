@@ -1,0 +1,10 @@
+#calendar
+{
+    background-color: rgb(86, 168, 61);
+    height: 35rem;
+    width: 100%;
+}
+
+#fc-theme-standard th,.fc .fc-daygrid-day-frame {
+    border: 1px solid white;
+}

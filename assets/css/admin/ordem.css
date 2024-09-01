@@ -1,0 +1,111 @@
+* {
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+  }
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+:root {
+    --success: #12c99b;
+    --error: #e41749;
+  }
+  
+  .alert {
+    min-height: 67px;
+    width: 560px;
+    max-width: 90%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    border-radius: 16px;
+    position: absolute;
+    top:10%;
+    left: 40%;
+    padding: 0;
+  }
+  
+  .alert-success {
+    background: var(--success);
+  }
+  .alert-error {
+    background: var(--error);
+  }
+.retangulo{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 30px 90px;
+    display: flex;
+    align-items: center;
+    justify-content:left ;
+    width: 80%;
+    height: 5rem;
+    background-color:rgb(8, 226, 37,0.7);;
+    border: 3px solid rgb(204, 190, 190);
+    padding-left: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.form-direito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-right: 100px;
+    position: absolute;
+    top: 28.5%;
+    left: 40%;
+    width: 60%;
+}
+   
+.form-esquero
+{
+    margin-left: 10%;
+    width: 30%;
+    height: 100vh;
+}
+.form{
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 30px 90px;
+    border: 3px solid rgb(204, 190, 190);
+    background: white;
+    height: 30rem;
+    border-top: none;
+    padding-top: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.main
+{   
+    display: flex;
+    flex-direction: column ;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control, .form-select{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+}
+
+.img-carta img{
+    padding: 0;
+    position: relative;
+    left: -3%;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+.btn-emitir
+{
+    width: 25%;
+    
+}

@@ -1,0 +1,27 @@
+
+.table{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 30px 90px;
+  height: 3rem;
+  border-radius: 8px !important;
+}
+
+.container{
+border-collapse: unset;
+}
+
+.titulo{
+position: relative;
+  top: 8rem;
+}
+
+td, th{
+  border: none;
+}
+
+.ttable-group-divider{
+  border-top: 2.5px solid black;
+}
+
+
+
+

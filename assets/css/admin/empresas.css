@@ -1,0 +1,65 @@
+.table{
+    height: 68vh;
+    margin:0;
+    padding: 0;
+    position: relative;
+    left: 3%;
+    top: 150px;
+  }
+
+  .nome{
+    color: black;
+  }
+
+  .lixo{
+    color: black;
+    width: 50px;
+  }
+
+.input-pes{
+position: relative;
+ width: 20%;
+ border-top: none;
+ border-left: none;
+ border-right: none;
+ border-bottom: 1px black solid;
+ background: none;
+}
+
+.input-pes:focus {
+  outline: 0;
+}
+
+.pesquisa{
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 100px;
+  left: 3%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 3rem;
+}
+
+.texto{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50px;
+  left: 0%;
+}
+
+.btn-p{
+  margin-left: 7px;
+  border:none;
+  background: none;
+  border-radius: 50%;
+}
+
+
+.hoje a {
+  font-weight: bold;
+  color: green;
+}

@@ -1,0 +1,52 @@
+
+  .btn-empresas{
+    
+    background: rgb(18, 167, 38);
+  }
+
+  .card{
+    box-shadow: 1px -1px 10px 1px rgb(126, 126, 126);
+  }
+
+.img-fluid{
+    width: 80px;
+    height: 80px;
+}
+
+.btn-cadastrar{
+    background: rgb(18, 167, 38);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.listaEmp{
+  background:  rgb(18, 167, 38);
+}
+
+.texto{
+  width: 50%;
+  position: relative;
+  left: 350px;
+  top: 180px;
+}
+
+.table{
+  height: 25rem;
+  margin:0;
+  padding: 0;
+  position: relative;
+  left: 350px;
+  top: 250px;
+}
+
+.img-cat{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.img-cat img{
+  margin-top: 40px;
+}
